@@ -22,8 +22,7 @@ a=a+"WELCOME"
 for i in range(int(p)):
     a=a+"-"
 print(a)
-a=a.replace("-","")
-a=a.replace("WELCOME","")
+a=""
 for i in range(n-2,0,-2):
     o=(m-3*i)/2
     round(o)
